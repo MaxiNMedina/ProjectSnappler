@@ -1,0 +1,1604 @@
+Started GET "/" for ::1 at 2019-07-17 08:42:07 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/maximedina/.rvm/gems/ruby-2.5.1/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/maximedina/.rvm/gems/ruby-2.5.1/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (2.1ms)
+Completed 200 OK in 12ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-17 08:42:08 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/maximedina/.rvm/gems/ruby-2.5.1/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/maximedina/.rvm/gems/ruby-2.5.1/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (2.1ms)
+Completed 200 OK in 8ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-17 08:42:10 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/maximedina/.rvm/gems/ruby-2.5.1/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/maximedina/.rvm/gems/ruby-2.5.1/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (1.8ms)
+Completed 200 OK in 7ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-17 08:42:49 -0300
+  
+ActionController::RoutingError (uninitialized constant MainController):
+  
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:79:in `block in load_missing_constant'
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:8:in `without_bootsnap_cache'
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:79:in `rescue in load_missing_constant'
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:58:in `load_missing_constant'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:283:in `const_get'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:283:in `block in constantize'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `constantize'
+actionpack (5.2.3) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.3) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:46:in `controller'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:840:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (5.2.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.3) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-07-17 08:43:38 -0300
+  
+ActionController::RoutingError (uninitialized constant MainController):
+  
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:79:in `block in load_missing_constant'
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:8:in `without_bootsnap_cache'
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:79:in `rescue in load_missing_constant'
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:58:in `load_missing_constant'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:283:in `const_get'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:283:in `block in constantize'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `constantize'
+actionpack (5.2.3) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.3) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:46:in `controller'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:840:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (5.2.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.3) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-07-17 08:49:09 -0300
+Processing by MainController#index as HTML
+Completed 406 Not Acceptable in 145ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::UnknownFormat (MainController#index is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.2.3) lib/action_controller/metal/implicit_render.rb:55:in `default_render'
+actionpack (5.2.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (5.2.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (5.2.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.3) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.3) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.3) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.3) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.3) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.3) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.3) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.3) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.3) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.3) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.3) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.3) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.3) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.3) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.3) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.3) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.3) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:840:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (5.2.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.3) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-07-17 08:50:54 -0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 853ms (Views: 850.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-17 09:10:10 -0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1659ms (Views: 1654.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/app/stylesheet/application.css" for ::1 at 2019-07-17 09:10:12 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/app/stylesheet/application.css"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/app/stylesheet/application.css" for ::1 at 2019-07-17 09:10:12 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/app/stylesheet/application.css"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-07-17 09:12:48 -0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 42ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial layouts/_header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/maximedina/Documents/Git/ProjectSnappler/app/views"
+  * "/Users/maximedina/.rvm/gems/ruby-2.5.1/bundler/gems/devise-9aa17eec0771/app/views"
+):
+    12:   <body> 
+    13: 
+    14:     <div> <!-- HEADER -->
+    15:     <%= render 'layouts/header' %>
+    16:     </div>
+    17: 
+    18:     <div class=""> <!-- Cuerpo -->
+  
+app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb___3808144240572652317_70289254486240'
+Started GET "/" for ::1 at 2019-07-17 09:15:44 -0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 53ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial layouts/_header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/maximedina/Documents/Git/ProjectSnappler/app/views"
+  * "/Users/maximedina/.rvm/gems/ruby-2.5.1/bundler/gems/devise-9aa17eec0771/app/views"
+):
+    12:   <body> 
+    13: 
+    14:     <div> <!-- HEADER -->
+    15:     <%= render 'layouts/header' %>
+    16:     </div>
+    17: 
+    18:     <div class=""> <!-- Cuerpo -->
+  
+app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb___3808144240572652317_70289270543200'
+Started GET "/" for ::1 at 2019-07-17 09:48:02 -0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 272ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial layouts/_header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/maximedina/Documents/Git/ProjectSnappler/app/views"
+  * "/Users/maximedina/.rvm/gems/ruby-2.5.1/bundler/gems/devise-9aa17eec0771/app/views"
+):
+    12:   <body> 
+    13: 
+    14:     <div> <!-- HEADER -->
+    15:     <%= render 'layouts/header' %>
+    16:     </div>
+    17: 
+    18:     <div class="ps-content"> <!-- Cuerpo -->
+  
+app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb___546942162945677894_70294650235820'
+Started GET "/" for ::1 at 2019-07-17 09:48:27 -0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 500 Internal Server Error in 48ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:24: syntax error, unexpected '<'
+...append=( link_to "Productos", <!--products_path-->, class: '...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:24: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+...oductos", <!--products_path-->, class: 'nav-link');@output_b...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:27: syntax error, unexpected '<'
+...ppend=( link_to "Categorias", <!--category_path-->, class: '...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:27: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+...egorias", <!--category_path-->, class: 'nav-link');@output_b...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:34: syntax error, unexpected '<'
+....append=( link_to "Usuarios", <!--users_path-->, class: 'nav...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:34: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+... "Usuarios", <!--users_path-->, class: 'nav-link');@output_b...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:37: syntax error, unexpected '<'
+...er.append=( link_to "Admins", <!--admins_path-->, class: 'na...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:37: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+...o "Admins", <!--admins_path-->, class: 'nav-link');@output_b...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:47: syntax error, unexpected '<'
+...nd=( link_to 'Cerrar Sesion', <!--destroy_user_session_path-...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:47: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+...--destroy_user_session_path-->, method: :delete, class: 'nav...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:51: syntax error, unexpected '<'
+...d=( link_to "Iniciar Sesion", <!--new_user_session_path-->?,...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:51: syntax error, unexpected '?', expecting keyword_do_LAMBDA or tLAMBEG
+..., <!--new_user_session_path-->?, class: 'nav-link');@output_...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:55: syntax error, unexpected '<'
+...pend=( link_to "Registrarse", <!--new_user_registration_path...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:55: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+...-new_user_registration_path-->, class: 'nav-link');@output_b...
+...                              ^):
+  
+app/views/layouts/_header.html.erb:24: syntax error, unexpected '<'
+app/views/layouts/_header.html.erb:24: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/layouts/_header.html.erb:27: syntax error, unexpected '<'
+app/views/layouts/_header.html.erb:27: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/layouts/_header.html.erb:34: syntax error, unexpected '<'
+app/views/layouts/_header.html.erb:34: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/layouts/_header.html.erb:37: syntax error, unexpected '<'
+app/views/layouts/_header.html.erb:37: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/layouts/_header.html.erb:47: syntax error, unexpected '<'
+app/views/layouts/_header.html.erb:47: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/layouts/_header.html.erb:51: syntax error, unexpected '<'
+app/views/layouts/_header.html.erb:51: syntax error, unexpected '?', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/layouts/_header.html.erb:55: syntax error, unexpected '<'
+app/views/layouts/_header.html.erb:55: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb___546942162945677894_70294634830240'
+Started GET "/" for ::1 at 2019-07-17 09:48:48 -0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 500 Internal Server Error in 44ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:21: syntax error, unexpected '<'
+...append=( link_to "Productos", <!--products_path-->, class: '...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:21: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+...oductos", <!--products_path-->, class: 'nav-link');@output_b...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:24: syntax error, unexpected '<'
+...ppend=( link_to "Categorias", <!--category_path-->, class: '...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:24: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+...egorias", <!--category_path-->, class: 'nav-link');@output_b...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:31: syntax error, unexpected '<'
+....append=( link_to "Usuarios", <!--users_path-->, class: 'nav...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:31: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+... "Usuarios", <!--users_path-->, class: 'nav-link');@output_b...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:34: syntax error, unexpected '<'
+...er.append=( link_to "Admins", <!--admins_path-->, class: 'na...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:34: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+...o "Admins", <!--admins_path-->, class: 'nav-link');@output_b...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:44: syntax error, unexpected '<'
+...nd=( link_to 'Cerrar Sesion', <!--destroy_user_session_path-...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:44: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+...--destroy_user_session_path-->, method: :delete, class: 'nav...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:48: syntax error, unexpected '<'
+...d=( link_to "Iniciar Sesion", <!--new_user_session_path-->?,...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:48: syntax error, unexpected '?', expecting keyword_do_LAMBDA or tLAMBEG
+..., <!--new_user_session_path-->?, class: 'nav-link');@output_...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:52: syntax error, unexpected '<'
+...pend=( link_to "Registrarse", <!--new_user_registration_path...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:52: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+...-new_user_registration_path-->, class: 'nav-link');@output_b...
+...                              ^):
+  
+app/views/layouts/_header.html.erb:21: syntax error, unexpected '<'
+app/views/layouts/_header.html.erb:21: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/layouts/_header.html.erb:24: syntax error, unexpected '<'
+app/views/layouts/_header.html.erb:24: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/layouts/_header.html.erb:31: syntax error, unexpected '<'
+app/views/layouts/_header.html.erb:31: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/layouts/_header.html.erb:34: syntax error, unexpected '<'
+app/views/layouts/_header.html.erb:34: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/layouts/_header.html.erb:44: syntax error, unexpected '<'
+app/views/layouts/_header.html.erb:44: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/layouts/_header.html.erb:48: syntax error, unexpected '<'
+app/views/layouts/_header.html.erb:48: syntax error, unexpected '?', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/layouts/_header.html.erb:52: syntax error, unexpected '<'
+app/views/layouts/_header.html.erb:52: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb___546942162945677894_70294700869400'
+Started GET "/" for ::1 at 2019-07-17 09:48:52 -0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 500 Internal Server Error in 48ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:24: syntax error, unexpected '<'
+...append=( link_to "Productos", <!--products_path-->, class: '...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:24: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+...oductos", <!--products_path-->, class: 'nav-link');@output_b...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:27: syntax error, unexpected '<'
+...ppend=( link_to "Categorias", <!--category_path-->, class: '...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:27: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+...egorias", <!--category_path-->, class: 'nav-link');@output_b...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:34: syntax error, unexpected '<'
+....append=( link_to "Usuarios", <!--users_path-->, class: 'nav...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:34: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+... "Usuarios", <!--users_path-->, class: 'nav-link');@output_b...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:37: syntax error, unexpected '<'
+...er.append=( link_to "Admins", <!--admins_path-->, class: 'na...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:37: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+...o "Admins", <!--admins_path-->, class: 'nav-link');@output_b...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:47: syntax error, unexpected '<'
+...nd=( link_to 'Cerrar Sesion', <!--destroy_user_session_path-...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:47: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+...--destroy_user_session_path-->, method: :delete, class: 'nav...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:51: syntax error, unexpected '<'
+...d=( link_to "Iniciar Sesion", <!--new_user_session_path-->?,...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:51: syntax error, unexpected '?', expecting keyword_do_LAMBDA or tLAMBEG
+..., <!--new_user_session_path-->?, class: 'nav-link');@output_...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:55: syntax error, unexpected '<'
+...pend=( link_to "Registrarse", <!--new_user_registration_path...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:55: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+...-new_user_registration_path-->, class: 'nav-link');@output_b...
+...                              ^):
+  
+app/views/layouts/_header.html.erb:24: syntax error, unexpected '<'
+app/views/layouts/_header.html.erb:24: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/layouts/_header.html.erb:27: syntax error, unexpected '<'
+app/views/layouts/_header.html.erb:27: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/layouts/_header.html.erb:34: syntax error, unexpected '<'
+app/views/layouts/_header.html.erb:34: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/layouts/_header.html.erb:37: syntax error, unexpected '<'
+app/views/layouts/_header.html.erb:37: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/layouts/_header.html.erb:47: syntax error, unexpected '<'
+app/views/layouts/_header.html.erb:47: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/layouts/_header.html.erb:51: syntax error, unexpected '<'
+app/views/layouts/_header.html.erb:51: syntax error, unexpected '?', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/layouts/_header.html.erb:55: syntax error, unexpected '<'
+app/views/layouts/_header.html.erb:55: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb___546942162945677894_70294689758620'
+Started GET "/" for ::1 at 2019-07-17 09:49:21 -0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 500 Internal Server Error in 43ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:34: syntax error, unexpected '<'
+....append=( link_to "Usuarios", <!--users_path-->, class: 'nav...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:34: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+... "Usuarios", <!--users_path-->, class: 'nav-link');@output_b...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:37: syntax error, unexpected '<'
+...er.append=( link_to "Admins", <!--admins_path-->, class: 'na...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:37: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+...o "Admins", <!--admins_path-->, class: 'nav-link');@output_b...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:47: syntax error, unexpected '<'
+...nd=( link_to 'Cerrar Sesion', <!--destroy_user_session_path-...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:47: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+...--destroy_user_session_path-->, method: :delete, class: 'nav...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:51: syntax error, unexpected '<'
+...d=( link_to "Iniciar Sesion", <!--new_user_session_path-->?,...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:51: syntax error, unexpected '?', expecting keyword_do_LAMBDA or tLAMBEG
+..., <!--new_user_session_path-->?, class: 'nav-link');@output_...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:55: syntax error, unexpected '<'
+...pend=( link_to "Registrarse", <!--new_user_registration_path...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:55: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+...-new_user_registration_path-->, class: 'nav-link');@output_b...
+...                              ^):
+  
+app/views/layouts/_header.html.erb:34: syntax error, unexpected '<'
+app/views/layouts/_header.html.erb:34: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/layouts/_header.html.erb:37: syntax error, unexpected '<'
+app/views/layouts/_header.html.erb:37: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/layouts/_header.html.erb:47: syntax error, unexpected '<'
+app/views/layouts/_header.html.erb:47: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/layouts/_header.html.erb:51: syntax error, unexpected '<'
+app/views/layouts/_header.html.erb:51: syntax error, unexpected '?', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/layouts/_header.html.erb:55: syntax error, unexpected '<'
+app/views/layouts/_header.html.erb:55: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb___546942162945677894_70294650504460'
+Started GET "/" for ::1 at 2019-07-17 09:49:58 -0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 500 Internal Server Error in 46ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:24: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+... root_path<!--products_path-->, class: 'nav-link');@output_b...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:27: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+... root_path<!--category_path-->, class: 'nav-link');@output_b...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:34: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+...s", root_path<!--users_path-->, class: 'nav-link');@output_b...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:37: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+...", root_path<!--admins_path-->, class: 'nav-link');@output_b...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:47: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+...--destroy_user_session_path-->, method: :delete, class: 'nav...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:51: syntax error, unexpected '?', expecting keyword_do_LAMBDA or tLAMBEG
+...th<!--new_user_session_path-->?, class: 'nav-link');@output_...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:55: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+...-new_user_registration_path-->, class: 'nav-link');@output_b...
+...                              ^):
+  
+app/views/layouts/_header.html.erb:24: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/layouts/_header.html.erb:27: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/layouts/_header.html.erb:34: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/layouts/_header.html.erb:37: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/layouts/_header.html.erb:47: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/layouts/_header.html.erb:51: syntax error, unexpected '?', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/layouts/_header.html.erb:55: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb___546942162945677894_70294648661000'
+Started GET "/" for ::1 at 2019-07-17 09:50:07 -0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 500 Internal Server Error in 44ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:27: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+... root_path<!--category_path-->, class: 'nav-link');@output_b...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:34: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+...s", root_path<!--users_path-->, class: 'nav-link');@output_b...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:37: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+...", root_path<!--admins_path-->, class: 'nav-link');@output_b...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:47: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+...--destroy_user_session_path-->, method: :delete, class: 'nav...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:51: syntax error, unexpected '?', expecting keyword_do_LAMBDA or tLAMBEG
+...th<!--new_user_session_path-->?, class: 'nav-link');@output_...
+...                              ^
+/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:55: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+...-new_user_registration_path-->, class: 'nav-link');@output_b...
+...                              ^):
+  
+app/views/layouts/_header.html.erb:27: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/layouts/_header.html.erb:34: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/layouts/_header.html.erb:37: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/layouts/_header.html.erb:47: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/layouts/_header.html.erb:51: syntax error, unexpected '?', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/layouts/_header.html.erb:55: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb___546942162945677894_70294677342400'
+Started GET "/" for ::1 at 2019-07-17 09:50:24 -0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+Completed 500 Internal Server Error in 61ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:55: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+...-new_user_registration_path-->, class: 'nav-link');@output_b...
+...                              ^):
+  
+app/views/layouts/_header.html.erb:55: syntax error, unexpected ',', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb___546942162945677894_70294691539520'
+Started GET "/" for ::1 at 2019-07-17 09:50:41 -0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (3.8ms)
+Completed 500 Internal Server Error in 44ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (The asset "HSH-Logo3.png" is not present in the asset pipeline.):
+    4: 
+    5:       <%= link_to root_path, class: 'navbar-brand' do %>    <!-- Link a pagina principal (tocando logo o titulo)-->
+    6:         <h2 class="header-logo" style="margin-left: 7%">  <!-- titulo color blanco y logo-->
+    7:           <%= image_tag "HSH-Logo3.png", title: "Logo", class: "logo" %>
+    8:           <%= image_tag "HSH-Text2.png", title: "Logo", class: "logo" %>
+    9:         </h2>
+   10:       <% end %>
+  
+app/views/layouts/_header.html.erb:7:in `block in _app_views_layouts__header_html_erb__3298530371807182310_70294677340900'
+app/views/layouts/_header.html.erb:5:in `_app_views_layouts__header_html_erb__3298530371807182310_70294677340900'
+app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb___546942162945677894_70294701365800'
+Started GET "/" for ::1 at 2019-07-17 09:51:06 -0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (149.6ms)
+Completed 500 Internal Server Error in 191ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `user_signed_in?' for #<#<Class:0x00007fdd7f4e4620>:0x00007fdd8555a9f0>):
+    18:           </li>
+    19: 
+    20:            <!-- USUARIO NO LOGUEADO-->
+    21:            <% if !user_signed_in? %>
+    22:             <li class="nav-item">
+    23:               <%= link_to "Productos", root_path, class: 'nav-link'%>
+    24:             </li>
+  
+app/views/layouts/_header.html.erb:21:in `_app_views_layouts__header_html_erb__3298530371807182310_70294699070500'
+app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb___546942162945677894_70294700623820'
+Started GET "/" for ::1 at 2019-07-17 09:52:03 -0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (0.3ms)
+DEPRECATION WARNING: [Devise] `DeviseHelper.devise_error_messages!`
+is deprecated and it will be removed in the next major version.
+To customize the errors styles please run `rails g devise:views` and modify the
+`devise/shared/error_messages` partial.
+ (called from _app_views_layouts__header_html_erb__3298530371807182310_70294634907720 at /Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:37)
+  Rendered layouts/_header.html.erb (297.2ms)
+Completed 500 Internal Server Error in 353ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `resource' for #<#<Class:0x00007fdd7f4e4620>:0x00007fdd85398040>):
+    34: 
+    35:   <div id="deviseERR" class="row noselect">
+    36:     <div id="deviseERR-content" class="container danger alert-danger">
+    37:       <%= devise_error_messages! %>
+    38:     </div>
+    39:   </div>
+    40: 
+  
+app/views/layouts/_header.html.erb:37:in `_app_views_layouts__header_html_erb__3298530371807182310_70294634907720'
+app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb___546942162945677894_70294650556940'
+Started GET "/" for ::1 at 2019-07-17 09:52:15 -0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (0.3ms)
+DEPRECATION WARNING: [Devise] `DeviseHelper.devise_error_messages!`
+is deprecated and it will be removed in the next major version.
+To customize the errors styles please run `rails g devise:views` and modify the
+`devise/shared/error_messages` partial.
+ (called from _app_views_layouts__header_html_erb__3298530371807182310_70294698082400 at /Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:37)
+  Rendered layouts/_header.html.erb (295.4ms)
+Completed 500 Internal Server Error in 343ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `resource' for #<#<Class:0x00007fdd7f4e4620>:0x00007fdd7f698e30>):
+    34: 
+    35:   <div id="deviseERR" class="row noselect">
+    36:     <div id="deviseERR-content" class="container danger alert-danger">
+    37:       <%= devise_error_messages! %>
+    38:     </div>
+    39:   </div>
+    40: -->
+  
+app/views/layouts/_header.html.erb:37:in `_app_views_layouts__header_html_erb__3298530371807182310_70294698082400'
+app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb___546942162945677894_70294651028700'
+Started GET "/" for ::1 at 2019-07-17 09:52:29 -0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (0.3ms)
+DEPRECATION WARNING: [Devise] `DeviseHelper.devise_error_messages!`
+is deprecated and it will be removed in the next major version.
+To customize the errors styles please run `rails g devise:views` and modify the
+`devise/shared/error_messages` partial.
+ (called from _app_views_layouts__header_html_erb__3298530371807182310_70294700087500 at /Users/maximedina/Documents/Git/ProjectSnappler/app/views/layouts/_header.html.erb:37)
+  Rendered layouts/_header.html.erb (246.7ms)
+Completed 500 Internal Server Error in 291ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `resource' for #<#<Class:0x00007fdd7f4e4620>:0x00007fdd85601ca0>):
+    34: 
+    35:   <div id="deviseERR" class="row noselect">
+    36:     <div id="deviseERR-content" class="container danger alert-danger">
+    37:       <%= devise_error_messages! %>
+    38:     </div>
+    39:   </div>
+    40: -->
+  
+app/views/layouts/_header.html.erb:37:in `_app_views_layouts__header_html_erb__3298530371807182310_70294700087500'
+app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb___546942162945677894_70294701067400'
+Started GET "/" for ::1 at 2019-07-17 09:52:38 -0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 500 Internal Server Error in 74ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial layouts/_footer with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/maximedina/Documents/Git/ProjectSnappler/app/views"
+  * "/Users/maximedina/.rvm/gems/ruby-2.5.1/bundler/gems/devise-9aa17eec0771/app/views"
+):
+    20:     </div>
+    21: 
+    22:     <div> <!-- FOOTER -->
+    23:     <%= render 'layouts/footer' %>
+    24:     </div>
+    25: 
+    26:   </body>
+  
+app/views/layouts/application.html.erb:23:in `_app_views_layouts_application_html_erb___546942162945677894_70294668803240'
+Started GET "/" for ::1 at 2019-07-17 09:52:50 -0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 46ms (Views: 43.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/app/stylesheet/application.css" for ::1 at 2019-07-17 09:52:50 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/app/stylesheet/application.css"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-07-17 09:55:35 -0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (147.1ms)
+Completed 500 Internal Server Error in 190ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `user_signed_in?' for #<#<Class:0x00007fdd7f4e4620>:0x00007fdd8538b7a0>):
+    18:           </li>
+    19: 
+    20:            <!-- USUARIO NO LOGUEADO-->
+    21:            <% if !user_signed_in? %>
+    22:             <li class="nav-item">
+    23:               <%= link_to "Productos", root_path, class: 'nav-link'%>
+    24:             </li>
+  
+app/views/layouts/_header.html.erb:21:in `_app_views_layouts__header_html_erb__3298530371807182310_70294698433280'
+app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb___546942162945677894_70294650572200'
+Started GET "/" for ::1 at 2019-07-17 09:55:42 -0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 500 Internal Server Error in 48ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial layouts/_footer with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/maximedina/Documents/Git/ProjectSnappler/app/views"
+  * "/Users/maximedina/.rvm/gems/ruby-2.5.1/bundler/gems/devise-9aa17eec0771/app/views"
+):
+    20:     </div>
+    21: 
+    22:     <div> <!-- FOOTER -->
+    23:     <%= render 'layouts/footer' %>
+    24:     </div>
+    25: 
+    26:   </body>
+  
+app/views/layouts/application.html.erb:23:in `_app_views_layouts_application_html_erb___546942162945677894_70294676995360'
+Started GET "/" for ::1 at 2019-07-17 09:57:36 -0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 49ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/app/stylesheet/application.css" for ::1 at 2019-07-17 09:57:36 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/app/stylesheet/application.css"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-07-17 09:58:03 -0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 44ms (Views: 42.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/app/stylesheet/application.css" for ::1 at 2019-07-17 09:58:03 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/app/stylesheet/application.css"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-07-17 09:58:12 -0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 45ms (Views: 43.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/app/stylesheet/application.css" for ::1 at 2019-07-17 09:58:12 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/app/stylesheet/application.css"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-07-17 09:58:16 -0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 51ms (Views: 48.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/app/stylesheet/application.css" for ::1 at 2019-07-17 09:58:16 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/app/stylesheet/application.css"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-07-17 10:00:10 -0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 1183ms (Views: 1181.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/app/stylesheet/application.css" for ::1 at 2019-07-17 10:00:12 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/app/stylesheet/application.css"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-07-17 10:00:31 -0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 45ms (Views: 43.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/app/stylesheet/application.css" for ::1 at 2019-07-17 10:00:31 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/app/stylesheet/application.css"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-07-17 10:01:17 -0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 825ms (Views: 823.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/app/stylesheet/application.css" for ::1 at 2019-07-17 10:01:18 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/app/stylesheet/application.css"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/app/stylesheet/application.css" for ::1 at 2019-07-17 10:01:18 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/app/stylesheet/application.css"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-07-17 10:01:42 -0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 51ms (Views: 49.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-17 10:02:32 -0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (5.4ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (The asset "fondo.jpg" is not present in the asset pipeline.):
+    1: <div id="hsh-home" class="row">
+    2:   <%= image_tag 'fondo.jpg', class: 'fit1' %>
+    3: </div>
+  
+app/views/main/index.html.erb:2:in `_app_views_main_index_html_erb___1337423386867513712_70294668953020'
+Started GET "/" for ::1 at 2019-07-17 10:02:43 -0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 48ms (Views: 46.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-17 10:03:39 -0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 824ms (Views: 820.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-17 10:04:13 -0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 57ms (Views: 53.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-17 10:04:15 -0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 53ms (Views: 51.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-17 10:04:32 -0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 44ms (Views: 42.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-17 10:05:19 -0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 50ms (Views: 47.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-17 10:07:45 -0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.html.erb (2.9ms)
+  Rendered layouts/_footer.html.erb (1.1ms)
+Completed 200 OK in 80ms (Views: 78.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vendor/bootstrap/css/bootstrap.min.css" for ::1 at 2019-07-17 10:07:45 -0300
+Started GET "/css/full.css" for ::1 at 2019-07-17 10:07:45 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/vendor/bootstrap/css/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/css/full.css"):
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-07-17 10:07:49 -0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 60ms (Views: 57.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-17 10:08:02 -0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 53ms (Views: 49.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vendor/bootstrap/css/bootstrap.min.css" for ::1 at 2019-07-17 10:08:02 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/vendor/bootstrap/css/bootstrap.min.css"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/css/full.css" for ::1 at 2019-07-17 10:08:02 -0300
+  
+Started GET "/vendor/bootstrap/js/bootstrap.bundle.min.js" for ::1 at 2019-07-17 10:08:02 -0300
+ActionController::RoutingError (No route matches [GET] "/css/full.css"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/vendor/jquery/jquery.min.js" for ::1 at 2019-07-17 10:08:02 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/vendor/jquery/jquery.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/vendor/bootstrap/js/bootstrap.bundle.min.js"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-07-17 10:08:54 -0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 45ms (Views: 43.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-17 10:09:53 -0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 40ms (Views: 38.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-17 10:09:53 -0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 44ms (Views: 42.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-17 10:10:17 -0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 777ms (Views: 774.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-17 10:10:42 -0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 45ms (Views: 43.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-17 10:10:46 -0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 59ms (Views: 56.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-17 10:10:53 -0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 43ms (Views: 40.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-17 10:11:25 -0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 45ms (Views: 42.3ms | ActiveRecord: 0.0ms)
+
+

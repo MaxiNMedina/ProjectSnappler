@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title></title>
+	</head>
+
+	<body> <!-- Contenedor Principal donde esta todo el contenido de la pagina -->
+		<div id="principal"> <!-- Para Logo y menu de Navegacion-->
+			<header> 
+				<div id="logo"> <!--Logo-->
+					<h2>Informatica</h2>
+					<p>Aprendiendo HTML!!!!</p>
+				</div>
+
+				<nav> <!--Menu de navegacion-->
+					<ul> <!--Creacion de listas desordenadas-->
+						<li><a href="">Enlace</a></li>
+					</ul>
+				</nav>
+			</header>
+		</div>
+	</body>
+
+</html>
